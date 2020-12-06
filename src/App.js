@@ -58,8 +58,7 @@ class App extends Component {
                           {id:this.max_contents_id, title:_title, desc:_desc}); */
                         // var _contents = this.state.Contents.concat(
                         //   {id:this.max_contents_id, title:_title, desc:_desc}
-                        // );         
-                        
+                        // );                                 
                         var _contents = Array.from(this.state.Contents);
                         _contents.push({id:this.max_contents_id, title:_title, desc:_desc});
 
